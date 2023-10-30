@@ -1,0 +1,26 @@
+{
+  "name": "botParser",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/Dendy-D/botParser.git",
+  "author": "Dendy-D <daniivasilenko2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "node-openvpn": "^0.1.1",
+    "openvpn-client": "^0.0.2",
+    "puppeteer": "^21.4.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
